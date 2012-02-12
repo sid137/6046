@@ -13,6 +13,8 @@ insertion_sort [x] = [x]
 insertion_sort (x:xs) = 
   insert x (insertion_sort xs)
 
+
+
 reverse_insert :: (Ord a) => a -> [a] -> [a]
 reverse_insert x [] = [x]
 reverse_insert x (y:ys) 
