@@ -1,4 +1,5 @@
 import Data.List
+import Debug.Trace
 
 list = [3,0,9,4,2,8,6, 7]
 
