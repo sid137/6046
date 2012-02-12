@@ -1,16 +1,8 @@
-module Selection
-(
-selection_sort
+module Sorting.Selection
+( selection_sort
 ) where
 import Data.List
 
-list = [3,0,9,4,2,8,6, 7]
-
--- Θ(n)
--- smallest :: (Ord a) => [a] -> a
--- smallest [x] = x
--- smallest (x:xs) = min x $ smallest xs
-  
 
 selection_sort :: (Ord a) => [a] -> [a]
 selection_sort [x] = [x]
